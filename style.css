@@ -21,7 +21,7 @@ left: 2vw;}
 
 /*navbar*/
 
-a{   color: #333333;}
+a{   color:#615b5b;}
 
 
 .nav-item.scrolled {
@@ -33,9 +33,9 @@ a{   color: #333333;}
   }
 
   .ml14 {
-    color: yellowgreen;
+    color: #abca38;
     font-weight: 200;
-    font-size: 3.2em;
+    font-size: 3.6em;
   }
   
   .ml14 .text-wrapper {
@@ -71,7 +71,7 @@ a{   color: #333333;}
   padding-bottom: 5vh;
   margin: auto 15vh;
   text-align: center;
-  color: #333333;
+  color: #615b5b;
 }
 
 .headline{
@@ -89,7 +89,7 @@ text-align: center;}
 }
 
 .active {
- background: yellowgreen;
+ background: #abca38;
  color: #fff;
 }
 
@@ -99,7 +99,7 @@ text-align: center;}
 }
 
 .hover {
-  background: yellow;
+  background: #abca38;
 }
 
 /*about*/
@@ -154,11 +154,37 @@ text-align: center;}
 li {
   margin-bottom: 10px;
 }
+
+.messanger{
+  position: absolute;
+  z-index: 1;
+  margin-top: 40vh;
+  margin-left: 8vw;
+
+
+}
+
+.mobile{
+  position: absolute;
+  z-index: 1;
+  margin-top: 3vh;
+  margin-left: 17vw;
+
+
+}
+.navigation{
+  position: absolute;
+  z-index: 1;
+  margin-top: 25vh;
+  margin-left: 36vw;
+
+
+}
 /*animated border bottom*/
 
 .cool-link {
   display: inline-block;
-  color: #000;
+  color: #615b5b;
   text-decoration: none;
 }
 
@@ -167,7 +193,7 @@ li {
   display: block;
   width: 0;
   height: 0.5vh;
-  background: yellowgreen;
+  background: #abca38;
   transition: width .3s;
 }
 
