@@ -1,6 +1,11 @@
 body{font-family: 'Encode Sans', sans-serif;
   
   height: 400vh;}
+  html {
+    font-size: 1rem;
+  }
+  
+ 
 
 /*carousel*/
 
@@ -14,10 +19,10 @@ body{font-family: 'Encode Sans', sans-serif;
 
 }
 
-.img-fluid {width: 40vh;
+/*.img-fluid {width: 40vh;
 position: absolute;
 top: 8vh;
-left: 2vw;}
+left: 2vw;}*/
 
 /*navbar*/
 
@@ -111,18 +116,18 @@ text-align: center;}
   position: absolute;
   z-index: 1;
   margin-top: 10vh;
-  margin-left: 68vw;
-  font-size: 2.5em;
-  
-}
+  margin-left: 66vw;
+  /*font-size: 2.5em;
+  */
+} 
 
 .pabout
 {
   position: absolute;
   z-index: 1;
   margin-top: 20vh;
-  margin-left: 68vw;
-  font-size: 1.2em;
+  margin-left: 66vw;
+  /*font-size: 1.2em;*/
   
 }
 /*contact*/
@@ -184,7 +189,7 @@ li {
 /*animated border bottom*/
 
 .cool-link {
-  display: inline-block;
+ display: inline-block;
   color: #615b5b;
   text-decoration: none;
 }
@@ -212,10 +217,27 @@ transition: width .3s;
   font-size: 1.5em;
   
 }
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
 
 
 
-@media(max-width: 1024px){
+/*@media(max-width: 1024px){
 .carousel-caption{
   top:15vh;
 }
